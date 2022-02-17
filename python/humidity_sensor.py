@@ -33,7 +33,7 @@ if True:
     print() # this generates a newline to make up for the missing one at the end of the loop
     print() # this generates another newline to clear the text off the top of the display
     print("RH: %.2f %%" % hts.relative_humidity)
-    # print("Temp: %.2f C" % hts.temperature, end ="") # suppress newline to prevent text shifting up on display
+    print("Temp: %.2f C" % hts.temperature, end ="") # suppress newline to prevent text shifting up on display
     print("Temp: %.2f C" % hts.temperature) # use this line instead if not using tiny display
     time.sleep(delay_time)
 
